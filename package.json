@@ -1,6 +1,6 @@
 {
   "name": "teratail",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "teratail API client library for node.js",
   "keywords": [
     "teratail"
