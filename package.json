@@ -1,0 +1,46 @@
+{
+  "name": "teratail",
+  "version": "0.0.1",
+  "description": "teratail API client library for node.js",
+  "keywords": [
+    "teratail"
+  ],
+  "homepage": "https://github.com/cssho/node-teratail",
+  "author": {
+	  "name": "Sho Sato",
+	  "email": "rizeupbass@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cssho/node-teratail"
+  },
+  "scripts": {
+    "test": "npm run lint ",
+    "lint": "jshint test/*.js lib/*.js && echo Lint passed."
+  },
+  "dependencies": {
+    "deep-extend": "^0.3.2",
+    "request": "^2.51.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  },
+  "main": "./lib/teratail",
+  "jshintConfig": {
+    "boss": true,
+    "node": true,
+    "strict": true,
+    "newcap": false,
+    "undef": true,
+    "unused": true,
+    "onecase": true,
+    "lastsemic": true,
+    "indent": 2,
+    "globals": {
+      "escape": true,
+      "describe": true,
+      "it": true,
+      "before": true
+    }
+  }
+}
