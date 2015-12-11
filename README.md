@@ -11,9 +11,9 @@ var client = new Teartail({
 });
 
 var params = {};
-client.get('users/teratail', params, function(error, tweets, response){
+client.get('users/teratail', params, function(error, user, response){
   if (!error) {
-    console.log(tweets);
+    console.log(user);
   } else {
     console.log(error);
   }
